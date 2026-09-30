@@ -1,0 +1,7 @@
+// Signing defaults for anyone building this project.
+// To use your own Apple team and bundle ID, create Config/Signing.local.xcconfig
+// (gitignored) that sets DEVELOPMENT_TEAM and BUNDLE_ID_PREFIX.
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example.camcontrol
+
+#include? "Signing.local.xcconfig"
